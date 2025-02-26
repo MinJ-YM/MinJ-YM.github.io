@@ -1,0 +1,23 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    height: 100%;
+    background: black;
+}
+
+canvas {
+    display: block;
+}
+#welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0f0;
+    font-size: 48px;
+    font-family: "宋体", monospace; /* 优先使用宋体，回退到monospace */
+    text-shadow: 0 0 3px #0f0, 0 0 11px #0f0;
+    opacity: 0;
+    transition: opacity 1s;
+}
