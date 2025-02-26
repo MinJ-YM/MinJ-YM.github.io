@@ -6,7 +6,7 @@ canvas.height = window.innerHeight;
 
 const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ012345678&9@#$%きちみヌルの+ナ*()_+{}:"<>?[]ユ;\',./^`~';
 const charactersArray = characters.split('');
-const fontSize = 12;
+const fontSize = 10;
 const columns = canvas.width / fontSize;
 
 let drops = [];
