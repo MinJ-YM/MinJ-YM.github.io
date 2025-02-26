@@ -4,9 +4,9 @@ const ctx = canvas.getContext('2d');
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
 
-const characters = 'ABCDEFGHIJKLルMNOPQRSTUVWXYZ0123456789@#$%ヌ^&+のナきちみ*()_+{}:"<>?[]ユ;\',./`~';
+const characters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ012345678&9@#$%きちみヌルの+ナ*()_+{}:"<>?[]ユ;\',./^`~';
 const charactersArray = characters.split('');
-const fontSize = 14;
+const fontSize = 12;
 const columns = canvas.width / fontSize;
 
 let drops = [];
